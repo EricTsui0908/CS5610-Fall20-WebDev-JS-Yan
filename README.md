@@ -67,3 +67,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 # CS5610-Fall20-WebDev-JS-Yan
+# CS5610-Fall20-WebDev-JS-Yan
