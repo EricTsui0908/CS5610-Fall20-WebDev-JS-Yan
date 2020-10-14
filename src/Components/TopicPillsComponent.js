@@ -2,7 +2,7 @@ import React from "react";
 import CourseRowComponent from "./CourseRowComponent";
 import {createCourse, findAllCourses} from "../Services/CourseService";
 
-class Profile extends React.Component{
+class TopicPillsComponent extends React.Component{
     render(){
         return(
         <div class="col-8 row bg-light">
@@ -25,6 +25,7 @@ class Profile extends React.Component{
                         </li>
                     </ul>
                 </div>
+        </div>
         );
     }
 }

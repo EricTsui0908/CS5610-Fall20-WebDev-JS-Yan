@@ -2,7 +2,7 @@ import React from "react";
 import CourseRowComponent from "./CourseRowComponent";
 import {createCourse, findAllCourses} from "../Services/CourseService";
 
-class Profile extends React.Component{
+class WidgetListComponent extends React.Component{
     render(){
         return(
             <div class="container-sm mt-4 border">
@@ -44,9 +44,9 @@ class Profile extends React.Component{
                         <h1>Heading Text</h1>
                     </div>
                 </div>
-                </div>
                 <div class="container-sm d-flex mt-4 justify-content-end align-items-end mx-auto span2">
                     <a href="#" class="btn bt-sm btn-success mt-2 mb-2 pull-right">Add</a>
+                </div>
                 </div>
         );
     }

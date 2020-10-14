@@ -2,12 +2,12 @@ import React from "react";
 import CourseRowComponent from "./CourseRowComponent";
 import {createCourse, findAllCourses} from "../Services/CourseService";
 
-class Profile extends React.Component{
+class LessonTabsComponent extends React.Component{
     render(){
         return(
             <div>
                 <nav class="navbar navbar-expand-md  sticky-top navbar-dark bg-primary">
-                    <a href="../course-list/course-list.template.client.html" style="color:white" class="btn fa fa-times wbdv-course-editor wbdv-close"></a><a class="navbar-brand wbdv-course-title" href="#">CS5610</a>
+                    <a href="../course-list/course-list.template.client.html" style={{color: "white"}} class="btn fa fa-times wbdv-course-editor wbdv-close"></a><a class="navbar-brand wbdv-course-title" href="#">CS5610</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     </button>
                     <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
